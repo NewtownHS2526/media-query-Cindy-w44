@@ -26,8 +26,63 @@ body {
       width: 100%;
       opacity: 1;
       box-shadow: 1px 1px 15px black;
-  } .meal-card:hover {
+  } 
+  
+  .meal-card:hover {
       opacity: 0.6;
   }
   
   /* Insert @Media queries here! */
+ 
+  
+
+  @media (max-width: 1200px) {
+    .main {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    padding: 20px;
+    margin-top: 10px;
+    }
+
+    .meal-card {
+    width: 100%;
+    opacity: 1;
+    box-shadow: 1px 1px 15px black;
+    } 
+
+    @media (max-width: 992px) {
+    .main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 20px;
+    margin-top: 10px;
+    }
+    
+    .meal-card {
+    width: 100%;
+    opacity: 1;
+    box-shadow: 1px 1px 15px black;
+    } 
+
+    }
+
+    }
+
+    @media (max-width: 768px) {
+    .main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    padding: 20px;
+    margin-top: 10px;
+    }
+
+    .meal-card {
+    width: 100%;
+    opacity: 1;
+    box-shadow: 1px 1px 15px black;
+    } 
+
+    }
